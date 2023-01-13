@@ -1,0 +1,255 @@
+
+        <div class="container position-relative">
+            <a class="navbar-brand me-lg-5" href="/">
+                <img class="navbar-brand-dark" src="{{ ASSETS_ROOT }}/img/brand/light.svg" alt="Logo light">
+                <img class="navbar-brand-light" src="{{ ASSETS_ROOT }}/img/brand/dark.svg" alt="Logo dark">
+            </a>
+            <div class="navbar-collapse collapse me-auto" id="navbar_global">
+                <div class="navbar-collapse-header">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                            <a href="/">
+                                <img src="{{ ASSETS_ROOT }}/img/brand/dark.svg" alt="Themesberg logo">
+                            </a>
+                        </div>
+                        <div class="col-6 collapse-close">
+                            <a href="#navbar_global" class="fas fa-times" data-bs-toggle="collapse" data-bs-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" title="close" aria-label="Toggle navigation"></a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="dashboardDropdown" aria-expanded="false" data-bs-toggle="dropdown">
+                            Usuário
+                            <span class="fas fa-angle-down nav-link-arrow ms-1"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-megamenu-sm px-0 py-2 p-lg-4" aria-labelledby="dashboardDropdown">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h6 class="d-block mb-3 text-primary">Painel do usuário</h6>
+                                    <ul class="list-style-none mb-4">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/dashboard-settings.html">Configuração</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/dashboard-security.html">Segurança</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/dashboard-account.html">Minha conta</a>
+                                        </li>
+                                    </ul>
+                                    <h6 class="d-block mb-3 text-primary">Items</h6>
+                                    <ul class="list-style-none">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/dashboard-my-items.html">Meus itens</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/dashboard-edit-item.html">Editar itens</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <h6 class="d-block mb-3 text-primary">Mensagens</h6>
+                                    <ul class="list-style-none mb-4">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/dashboard-messages.html">Mensagens</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/dashboard-single-message.html">Bate-Papo</a>
+                                        </li>
+                                    </ul>
+                                    <h6 class="d-block mb-3 text-primary">Cobrança</h6>
+                                    <ul class="list-style-none mb-4">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/dashboard-billing.html">Detalhes de cobrança</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/dashboard-invoice.html">Fatura</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="frontPagesDropdown" aria-expanded="false" data-bs-toggle="dropdown">
+                            Ecossistema
+                            <span class="fas fa-angle-down nav-link-arrow ms-1"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-megamenu px-0 py-2 p-lg-4" aria-labelledby="frontPagesDropdown">
+                            <div class="row">
+                                <div class="col-6 col-lg-4">
+                                    <h6 class="d-block mb-3 text-primary">Páginas pricipais</h6>
+                                    <ul class="list-style-none mb-4">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-about.html">Quem somos</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-pricing.html">Preços</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-team.html">Equipe</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-services.html">Serviços</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-profile.html">Perfil</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-contact.html">Contato</a>
+                                        </li>
+                                    </ul>
+                                    <h6 class="d-block text-primary">Jurídico</h6>
+                                    <ul class="list-style-none mb-4">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-legal.html">Centro jurídico</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-terms.html">Termos e acordo</a>
+                                        </li>
+                                    </ul>
+                                    <h6 class="d-block text-primary">Carreira - DAO</h6>
+                                    <ul class="list-style-none mb-4">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-careers.html">Trabalhe conosco</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-career-single.html">Carreiras</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 col-lg-4">
+                                    <h6 class="d-block mb-3 text-primary">Aterrissagens</h6>
+                                    <ul class="list-style-none mb-4">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-landing-app.html">Aplicativo</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-landing-crypto.html">Crypto</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-landing-freelancer.html">Freelancer</a>
+                                        </li>
+                                    </ul>
+                                    <h6 class="d-block mb-3 text-primary">Apoio, Suporte</h6>
+                                    <ul class="list-style-none mb-4">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-support.html">Centro de Apoio</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-support-topic.html">Suporte</a>
+                                        </li>
+                                    </ul>
+                                    <h6 class="d-block mb-3 text-primary">Blog</h6>
+                                    <ul class="list-style-none mb-4">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-blog.html">Blog</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-blog-post.html">POstagens</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 col-lg-4">
+                                    <h6 class="d-block mb-3 text-primary">Usuário</h6>
+                                    <ul class="list-style-none mb-4">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-sign-in.html">Entrar</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-sign-up.html">Inscreva-se</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-forgot-password.html">Esquici a senha</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-reset-password.html">Redefinir senha</a>
+                                        </li>
+                                    </ul>
+                                    <h6 class="d-block mb-3 text-primary">Especial</h6>
+                                    <ul class="list-style-none mb-4">
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-404.html">Página não encontrada 404</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-500.html">Erro no servidor 500</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-maintenance.html">Manutenção</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-coming-soon.html">Em breve</a>
+                                        </li>
+                                        <li class="mb-2 megamenu-item">
+                                            <a class="megamenu-link" href="/page-blank.html">Página em branco</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                   
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" id="supportDropdown" aria-expanded="false">
+                            Support
+                            <span class="fas fa-angle-down nav-link-arrow ms-1"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-lg" aria-labelledby="supportDropdown">
+                            <div class="col-auto px-0">
+                                <div class="list-group list-group-flush">
+                                    <a href="https://docs.appseed.us/products/flask-apps/pixel-pro" target="_blank" class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4">
+                                        <span class="icon icon-sm"><span class="fas fa-file-alt"></span></span>
+                                        <div class="ms-4">
+                                            <span class="d-block font-small fw-bold mb-0">Documentation<span class="badge badge-sm badge-secondary ms-2">v3.1</span></span>
+                                            <span class="small">Examples and guides</span>
+                                        </div>
+                                    </a>
+                                    <a href="https://appseed.us/support" target="_blank" class="list-group-item list-group-item-action d-flex align-items-center p-0 py-3 px-lg-4">
+                                        <span class="icon icon-sm"><span class="fas fa-microphone-alt"></span></span>
+                                        <div class="ms-4">
+                                            <span class="d-block font-small fw-bold mb-0">Support</span>
+                                            <span class="small">Need help? Ask us!</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-flex align-items-center">
+                <a class="dropdown-item" href="{% url 'logout' %}" >  <span class="fas fa-sign-out-alt me-2"></span>Logout</a>
+
+                        </div>
+                        <div class="btn-group mb-2 me-2">
+                            <div  class="dropdown-toggle">
+                            <button type="button" class="btn btn-lg btn-tertiary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teste
+                                <span class="fas fa-angle-down dropdown-arrow"></span>
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu py-0">
+
+                                <a class="dropdown-item rounded-top" href="{% url 'logout' %}">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item rounded-bottom" href="/login/">Separated link</a>
+                                <a  href="{% url 'logout' %}" >  <span class="fas fa-sign-out-alt me-2"></span>Logout</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                
+                    <div class="mb-5">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+            </div>
+        </div>
